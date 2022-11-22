@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ColoredNumber from "./ColoredNumber";
 
-export default function Counter({ shouldCount }) {
+export default function Counter() {
   const [count, setCount] = useState(0);
   return (
     <div className="counter">
